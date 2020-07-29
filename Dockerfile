@@ -22,3 +22,5 @@ RUN apt install wget -y
 RUN apt install libv4l-dev -y
 
 RUN apt install virtualenv -y
+
+RUN pip install numpy scipy matplotlib python-igraph
