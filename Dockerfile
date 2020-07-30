@@ -23,4 +23,8 @@ RUN apt install libv4l-dev -y
 
 RUN apt install virtualenv -y
 
+RUN apt install bison byacc flex -y
+
 RUN pip install numpy scipy matplotlib python-igraph
+
+RUN apt install vim -y
